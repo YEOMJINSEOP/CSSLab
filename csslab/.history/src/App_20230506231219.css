@@ -26,7 +26,7 @@ body {
   margin: 1em;
   transition: 1s;
   transform: rotateY(0deg);
-  transform-style: preserve-3d; /*world에 perspective를 줘서 3D효과가 나는 것인데, card 까지는 전파가 되지만, card 안에 있는 card-sid에는 적용이 되지 않는다. 이를 전파해주기 위해 사용한다.*/
+  transform-style: preserve-3d;
   /* transform-origin: left; */
 }
 
@@ -41,9 +41,9 @@ body {
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;    
-    -webkit-backface-visibility: hidden; /* for Safari */
+    height: 100%;
     backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
 }
 
 .card-side-front{
