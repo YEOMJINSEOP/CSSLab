@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
 import Basic3d from './components/Basic3d';
-import ThreeDoors from './components/ThreeDoors';
+import ThreeDoors from './components/threeDoors';
 
 function App() {
   return (
